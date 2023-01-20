@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/drawable/pensil.xml" value="0.17" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/drawable/pulpen.xml" value="0.17" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/activity_bebas.xml" value="0.22" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/activity_guru.xml" value="0.20416666666666666" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/activity_pelajaran.xml" value="0.22" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/activity_pembelajaran.xml" value="0.22" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/activity_siswa.xml" value="0.22" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/activity_terimahkasih.xml" value="0.19010416666666666" />
+        <entry key="..\:/PinkyNila/Presensiabsensi/app/src/main/res/layout/pulpen.xml" value="0.203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

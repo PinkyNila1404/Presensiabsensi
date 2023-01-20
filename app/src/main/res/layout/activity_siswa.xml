@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Siswa"
+    android:background="#C400BCE5">
+
+    <TextView
+        android:id="@+id/TvNamalengkap2"
+        android:layout_width="240dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="44dp"
+        android:text="Nama Lengkap:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="379dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/pensil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvNamalengkap2">
+
+        <EditText
+            android:id="@+id/EtNama2"
+            android:layout_width="296dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Masukan Nama Lengkap Anda"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#786B6B"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/Tvkelas"
+        android:layout_width="131dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="KELAS:"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+    <Button
+        android:id="@+id/BtRpl1"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#D0009688"
+        android:text="XI RPL 1"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tvkelas" />
+
+    <Button
+        android:id="@+id/BtRpl2"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="#D0009688"
+        android:text="XI RPL 2"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tvkelas" />
+
+    <Button
+        android:id="@+id/BtRpl3"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="#D0009688"
+        android:text="XI RPL 3"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tvkelas" />
+
+    <TextView
+        android:id="@+id/TvDaftar2"
+        android:layout_width="187dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="36dp"
+        android:text="Daftar Kehadiran:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintStart_toEndOf="@+id/Tvkelas"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+    <Button
+        android:id="@+id/BtHadir2"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="#D0009688"
+        android:text="HADIR"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvDaftar2" />
+
+    <Button
+        android:id="@+id/Btijin2"
+        android:layout_width="133dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#D0009688"
+        android:text="IJIN"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvDaftar2" />
+
+    <Button
+        android:id="@+id/BtTanpaKt2"
+        android:layout_width="155dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="228dp"
+        android:backgroundTint="#D0009688"
+        android:text="Tanpa Keterangan"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvDaftar2" />
+
+    <Button
+        android:id="@+id/Btkirim2"
+        android:layout_width="290dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="332dp"
+        android:backgroundTint="#3F51B5"
+        android:text="KIRIM"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TvDaftar2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
